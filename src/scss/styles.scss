@@ -1,0 +1,12 @@
+$blue: rgb(69, 107, 165);
+.test{
+    display: block;
+    
+    &-button{
+        background-color: $blue;
+    }
+}
+
+h1{
+    font-size: 1rem
+}
