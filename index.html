@@ -6,11 +6,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="dist/css/styles.css">
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" defer></script>
 </head>
 <body>
-    <div class="test">
-        <h1>Testing</h1>
-        <button>Hello</button>
+    <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+        <div class="container">
+        <form class="form-inline mx-2">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          </form>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="profile.html">Profile</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="log-in.html">Log in</a>
+              </li>
+          </ul>
+          <a class="navbar-brand" href="#"><img src="img/logo.png"></a>
+        </div>
     </div>
+      </nav>
+    <div class="container mx-auto " style="max-width: 600px">
+        <div class="row py-3 my-4 border">
+        
+        </div>
+
+        <div class="row py-3 my-4 border">
+            <div class="col-3 col-sm-2">
+                <img src="img/logo.png">
+            </div>
+            <div class="col-9 col-sm-10">
+                <h2>Peter</h2>
+                <p>
+                Currently look for a programming buddy. I want to improve my FRONT END skills. Particulary CSS and design
+            </p></div>
+          </div>           
+    </div>
+      <div class="bg-primary py-3" style="color:#fefefe">
+        <p>Created by Daniel Sollid</p>
+      </div>
 </body>
 </html>
