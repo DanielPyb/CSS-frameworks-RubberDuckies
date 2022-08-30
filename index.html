@@ -1,56 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="dist/css/styles.css">
-    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" defer></script>
-</head>
-<body>
+    <link rel="stylesheet" href="dist/css/styles.css" />
+    <script
+      src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+      defer
+    ></script>
+  </head>
+  <body>
     <nav class="navbar navbar-expand-md navbar-dark bg-primary">
-        <div class="container">
+      <div class="container d-flex justify-content-between">
         <form class="form-inline mx-2">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          </form>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+        </form>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
         </button>
+        <a class="navbar-brand" href="#"><img src="img/logo.png" /></a>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
+          <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#"
+                >Home <span class="sr-only">(current)</span></a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="profile.html">Profile</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="log-in.html">Log in</a>
-              </li>
+              <a class="nav-link" href="log-in.html">Log in</a>
+            </li>
           </ul>
-          <a class="navbar-brand" href="#"><img src="img/logo.png"></a>
         </div>
-    </div>
-      </nav>
-    <div class="container mx-auto " style="max-width: 600px">
-        <div class="row py-3 my-4 border">
-        
-        </div>
-
-        <div class="row py-3 my-4 border">
-            <div class="col-3 col-sm-2">
-                <img src="img/logo.png">
-            </div>
-            <div class="col-9 col-sm-10">
-                <h2>Peter</h2>
-                <p>
-                Currently look for a programming buddy. I want to improve my FRONT END skills. Particulary CSS and design
-            </p></div>
-          </div>           
-    </div>
-      <div class="bg-primary py-3" style="color:#fefefe">
-        <p>Created by Daniel Sollid</p>
       </div>
-</body>
+    </nav>
+    <div class="container mx-auto" style="max-width: 600px">
+      <div class="row py-3 my-4 border border-1 rounded shadow">
+        <div class="form-group">
+          <label for="post"><p class="display-6">Write to your ducks</p></label>
+          <textarea class="form-control" id="post" rows="6"></textarea>
+          <button type="submit" class="btn btn-primary my-3">Post</button>
+        </div>
+      </div>
+
+      <div>
+        <div class="row pt-3 mt-4 border border-1 rounded-top">
+          <div class="col-3 col-sm-2">
+            <img src="img/logo.png" alt="user photo"/>
+          </div>
+          <div class="col-9 col-sm-10">
+            <h2 class="display-6">Peter Holm</h2>
+            <p>
+              Currently look for a programming buddy. I want to improve my
+              <span class="fw-bold">FRONT END</span> skills. Particulary CSS and
+              design
+            </p>
+          </div>
+        </div>
+        <div
+          class="row pt-3 mb-4 border border-1 rounded-bottom"
+          style="z-index: -1"
+        >
+          <p>2 comments</p>
+        </div>
+      </div>
+      <div>
+        <div class="row pt-3 mt-4 border border-1 rounded-top">
+          <div class="col-3 col-sm-2">
+            <img src="img/logo.png" alt="user photo"/>
+          </div>
+          <div class="col-9 col-sm-10">
+            <h2 class="display-6">Peter Holm</h2>
+            <p>
+              Currently look for a programming buddy. I want to improve my
+              <span class="fw-bold">FRONT END</span> skills. Particulary CSS and
+              design
+            </p>
+          </div>
+        </div>
+        <div
+          class="row pt-3 mb-4 border border-1 rounded-bottom"
+          style="z-index: -1"
+        >
+          <p>2 comments</p>
+        </div>
+      </div>
+      <div>
+        <div class="row pt-3 mt-4 border border-1 rounded-top">
+          <div class="col-3 col-sm-2">
+            <img src="img/logo.png" alt="user photo"/>
+          </div>
+          <div class="col-9 col-sm-10">
+            <h2 class="display-6">Peter Holm</h2>
+            <p>
+              Currently look for a programming buddy. I want to improve my
+              <span class="fw-bold">FRONT END</span> skills. Particulary CSS and
+              design
+            </p>
+          </div>
+        </div>
+        <div
+          class="row pt-3 mb-4 border border-1 rounded-bottom"
+          style="z-index: -1"
+        >
+          <p>2 comments</p>
+        </div>
+      </div>
+      <div>
+        <div class="row pt-3 mt-4 border border-1 rounded-top">
+          <div class="col-3 col-sm-2">
+            <img src="img/logo.png" alt="user photo"/>
+            <img src="img/add.png" alt="add this person to be your friend"/>
+          </div>
+          <div class="col-9 col-sm-10">
+            <p class="text-secondary fw-bold">Based on your interest</p>
+            <h2 class="display-6">Peter Holm</h2>
+            <p>
+              Currently look for a programming buddy. I want to improve my
+              <span class="fw-bold">FRONT END</span> skills. Particulary CSS and
+              design
+            </p>
+          </div>
+        </div>
+        <div
+          class="row pt-3 mb-4 border border-1 rounded-bottom"
+          style="z-index: -1"
+        >
+          <p>2 comments</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="bg-primary py-3" style="color: #fefefe">
+      <p class="text-center">Created by Daniel Sollid</p>
+    </div>
+  </body>
 </html>
